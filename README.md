@@ -16,7 +16,7 @@ This project is a responsive landing page built using HTML and Tailwind CSS. It 
 
 ## Preview
 
-![Landing Page Preview]![sbh](https://github.com/tumansutradhar/SBH/assets/121193864/fcb524e9-c60c-4004-861b-1481fffef3eb)
+![sbh](https://github.com/tumansutradhar/SBH/assets/121193864/fcb524e9-c60c-4004-861b-1481fffef3eb)
 
 
 ## Getting Started
