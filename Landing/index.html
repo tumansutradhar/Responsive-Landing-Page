@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SBH</title>
+    <script src="https://kit.fontawesome.com/effc832b1a.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/rick-liruixin/body-scroll-lock-upgrade@v1.1.0/lib/index.umd.js"></script>
+    <link rel="stylesheet" crossorigin href="./style.css">
+</head>
+
+<body>
+    <!-- HEADER START -->
+    <header>
+        <nav class="nav_2 w-full p-5 flex items-center justify-between md:px-16">
+            <!--  -->
+            <h1 class="">LOGO</h1>
+            <ul class="hidden sm:flex sm:gap-5">
+                <li>Home</li>
+                <li>Features</li>
+                <li>About</li>
+                <li>Contact Us</li>
+            </ul>
+            <div class="hidden sm:flex gap-1">
+                <a href="./../Login/sign in/index.html" class="bg-black text-white p-2">Sign in</a>
+                <a href="./../Login/sign up/index.html" class="bg-black text-white p-2 hidden md:block">Sign up</a>
+            </div>
+            <!--  -->
+            <!--  -->
+            <button class="sm:hidden">
+                <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+            </button>
+            <ul class="nav-menu w-full h-screen flex flex-col items-center justify-center gap-4 absolute bg-cyan-200 top-[-100%] left-0 sm:hidden">
+                <button class="absolute top-0 right-0 p-5">
+                    <i class="fa-solid fa-xmark" onclick="toggleMenu()"></i>
+                </button>
+                <li>Home</li>
+                <li>Features</li>
+                <li>About</li>
+                <li>Contact Us</li>
+                <div class="text-center">
+                    <a href="./../Login/sign in/index.html" class="bg-black text-white p-2">Sign in</a>
+                </div>
+            </ul>
+            <!--  -->
+        </nav>
+    </header>
+    <!-- HEADER END -->
+    <!-- MAIN START -->
+    <main>
+        <!-- HERO SECTION START -->
+        <div class="hero w-full h-auto p-5 flex flex-col items-center sm:flex-row md:px-16">
+            <div class="flex flex-col text-center gap-1 sm:w-7/12 sm:text-left lg:gap-5">
+                <h1 class="text-4xl font-bold lg:text-7xl">Lorem ipsum dolor sit amet.</h1>
+                <p class="md:text-xl lg:text-2xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae obcaecati assumenda dolore ipsa laborum nesciunt iste reiciendis in eum laboriosam?</p>
+                <div class="gap-1 hidden md:flex">
+                    <a href="./../Login/sign in/index.html" class="bg-black text-white p-2">Sign in</a>
+                    <a href="./../Login/sign up/index.html" class="bg-black text-white p-2">Sign up</a>
+                </div>
+            </div>
+            <img class="h-auto order-[-1] sm:order-[0] sm:w-5/12"
+                src="https://astroship.web3templates.com/_astro/hero.6fdd0dc6_Z2mbqjy.webp" alt="">
+        </div>
+        <!-- HERO SECTION END -->
+        <!-- FEATURES SECTION START -->
+        <div
+            class="features w-full p-5 grid grid-cols-1 grid-rows-1 gap-3 text-white text-center sm:grid-cols-2 md:p-16 lg:grid-cols-3">
+            <div class="bg-black h-32 flex flex-col items-center justify-center lg:h-64">
+                <h1>100%</h1>
+                <p>Customizable</p>
+            </div>
+            <div class="bg-black h-32 flex flex-col items-center justify-center lg:h-64">
+                <h1>Secure by default</h1>
+                <p>Provident fugit and vero voluptate. magnam magni doloribus dolores voluptates a sapiente nisi.</p>
+            </div>
+            <div class="bg-black h-32 flex flex-col items-center justify-center lg:h-64">
+                <h1>Faster than light</h1>
+                <p>Provident fugit vero voluptate. magnam magni doloribus dolores voluptates inventore nisi.</p>
+            </div>
+            <div class="bg-black h-32 flex flex-col items-center justify-center lg:h-64">
+                <h1>Faster than light</h1>
+                <p>Provident fugit vero voluptate. Voluptates a sapiente inventore nisi.</p>
+            </div>
+            <div class="bg-black h-32 flex flex-col items-center justify-center lg:h-64">
+                <h1>Keep your loved ones safe</h1>
+                <p>Voluptate. magnam magni doloribus dolores voluptates a sapiente inventore nisi.</p>
+            </div>
+            <div class="bg-black h-32 flex flex-col items-center justify-center lg:h-64">
+                <h1>Keep your loved ones safe</h1>
+                <p>Voluptate. magnam magni doloribus dolores voluptates a sapiente inventore nisi.</p>
+            </div>
+        </div>
+        <!-- FEATURES SECTION END -->
+        <!--  -->
+        <!--  -->
+    </main>
+    <!-- MAIN END -->
+    <!-- FOOTER START -->
+    <footer class="w-full h-auto bg-black text-white p-5 md:p-16 md:pb-5">
+        <div class="flex flex-col gap-5 sm:flex-row sm:justify-between">
+            <h1 class="hidden md:block md:w-1/4">LOGO</h1>
+            <div class="sm:flex sm:flex-col sm:justify-between sm:border-l-[1px] sm:pl-5 sm:w-1/3 md:w-1/4">
+                <p class="">lorem</p>
+                <p class="">lorem</p>
+                <p class="">lorem</p>
+                <p class="">lorem</p>
+                <p class="">lorem</p>
+            </div>
+            <div
+                class="border-white border-t-[1px] pt-5 sm:flex sm:flex-col sm:justify-between sm:border-t-0 sm:border-l-[1px] sm:pt-0 sm:pl-5 sm:w-1/3 md:w-1/4">
+                <p class="">lorem</p>
+                <p class="">lorem</p>
+                <p class="">lorem</p>
+                <p class="">lorem</p>
+                <p class="">lorem</p>
+            </div>
+            <form class="flex flex-col gap-1 order-[-1] sm:w-1/3 md:order-1 md:h-1/4 md:border-l-[1px] md:pl-5"
+                action="">
+                <label for="">Your email*</label>
+                <input class="outline-0 text-black p-1" type="email" placeholder="example@email.com" required>
+                <label for="">Your message*</label>
+                <textarea class="outline-0 text-black p-1" name="" id="" cols="30" rows="2" placeholder="Leave a message" required></textarea>
+                <button class="bg-white text-black p-2" type="submit">Send message</button>
+            </form>
+        </div>
+        <hr class="my-5">
+        <div class="text-center">
+            <p>©2024.All rights reserved™</p>
+        </div>
+    </footer>
+    <!-- FOOTER END -->
+    <!-- JAVASCRIPT START -->
+    <script src="./script.js"></script>
+    <!-- JAVASCRIPT END -->
+</body>
+
+</html>
