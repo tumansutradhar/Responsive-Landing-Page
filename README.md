@@ -16,7 +16,7 @@ This project is a responsive landing page built using HTML and Tailwind CSS. It 
 
 ## Preview
 
-![Landing Page Preview]()
+![Landing Page Preview](sbh.jpg)
 
 ## Getting Started
 
